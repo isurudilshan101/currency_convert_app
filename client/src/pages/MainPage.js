@@ -53,17 +53,13 @@ export default function MainPage() {
 
   return (
     <div>
-      <h1 className="lg:mx-32 text-5xl font-bold text-green-500">
-        Convert your currencies
-      </h1>
-      <p className="lg:mx-32 opacity-40 py-6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt
-        convallis dictum. Vestibulum ante ipsum primis in faucibus orci luctus
-        et ultrices posuere cubilia curae; Nulla cursus sodales maximus. Nam
-        tempus sit amet sapien ut aliquam. Nulla nec massa eu diam ornare
-        accumsan. Phasellus blandit, eros id auctor pretium, enim dui fermentum
-        nunc, ut tempor erat purus a ex. Nam aliquam mi lobortis orci varius
-      </p>
+     
+      <div className="flex justify-center  ">
+        <div className="text-center">
+            <h1 className="text-5xl font-bold text-green-500 mb-6">Convert your currencies</h1>
+            <p className="opacity-40">Welcome to our currency conversion app. Experience seamless currency conversions today!</p>
+        </div>
+      </div>
 
       <div className="mt-4 flex items-center justify-center flex-col">
         <section className="w-full lg:w-1/2">

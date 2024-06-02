@@ -17,7 +17,7 @@ export default function MainPage() {
       console.log(date, sourceCurrency, targetCurrency, amountInSourceCurrency);
       console.log("testing");
 
-      const response = await axios.get("http://localhost:5000/convert", {
+      const response = await axios.get("https://currency-convert-app-1.onrender.com/convert", {
         params: {
           date,
           sourceCurrency,
@@ -37,7 +37,7 @@ export default function MainPage() {
     const getCurrencyName = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/getAllCurrencies"
+          "https://currency-convert-app-1.onrender.com/getAllCurrencies"
         );
         console.log(response);
 
